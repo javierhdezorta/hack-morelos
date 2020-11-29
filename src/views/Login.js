@@ -1,5 +1,5 @@
 import React from 'react';
-import login from '../fonts/avatar.png'
+import login from '../fonts/explorador.png'
 import Image from 'react-image-resizer';
 import {withRouter} from 'react-router-dom'
 
