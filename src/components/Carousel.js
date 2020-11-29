@@ -1,13 +1,14 @@
 import "../css/App.css";
 import { useState } from "react";
 import Slider from "react-slick";
-import astronaut from "../assets/astronaut.png";
-import celebrating from "../assets/celebrating.png";
-import education from "../assets/education.png";
-import taken from "../assets/astronaut.png";
+import astronaut from "../assets/DSCF0043.jpg";
+import celebrating from "../assets/DSCF0056_Trim698.jpg";
+import education from "../assets/DSCF0058.jpg";
+import taken from "../assets/STC_0034.JPG";
+import bear from "../assets/DSCF0007.jpg";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const images = [astronaut, celebrating, education, taken];
+const images = [astronaut, celebrating, education, taken, bear];
 
 function Carousel() {
   const NextArrow = ({ onClick }) => {

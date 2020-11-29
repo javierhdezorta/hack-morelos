@@ -26,18 +26,12 @@ class Welcome extends React.Component {
                      <Carousel/>        
                 </div>
                 <SplitPane split="vertical"
-                defaultSize="55%"
+                defaultSize="100%"
                 >
                     <div style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}} >
                         
                         <form>
                             <button onClick={() => this.goView("/conjuntoManual")}>Subir Imágen</button>
-                        </form>
-                    </div>
-                    <div style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}}>
-                        
-                        <form>
-                            <button onClick={() => this.goView("/conjuntoUbicacion")}>Subir Video</button>
                         </form>
                     </div>
                 </SplitPane>

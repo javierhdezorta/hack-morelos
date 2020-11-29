@@ -1,3 +1,14 @@
+button {
+  color: white;
+  background-color: #FFA800;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Montserrat';
+  box-shadow: none;
+  border: solid;
+  margin-top: 5px;
+}
+
 .App {
   text-align: center;
 }

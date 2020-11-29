@@ -1,4 +1,52 @@
-.container {
+figure{
+  margin: 0px;
+  margin-top: 10px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+}
+
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  line-height: 150%;
+  font-size: 29px;
+  font-weight: normal;
+  letter-spacing: -.2px;
+  color: white;
+  /* margin: 0px 100px 0px 0px; */
+  margin: 0px;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+  .container {
     padding: 40px;
     background: #419be0;
   }
@@ -6,4 +54,82 @@
   .slick-slide img {
     margin: auto;
   }
-  
+
+  .header {
+    background-color: #288E00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header h1 {
+  margin: 0px 540px 0px 0px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.descripcion {
+  margin-top: 50px;
+}
+
+.project {
+  margin-bottom: 15px;
+  padding: 20px;
+  background: #288e00dc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-title {
+  color: white;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 15px;
+  margin: 0px;
+  color: white;
+  font-weight: normal;
+}
